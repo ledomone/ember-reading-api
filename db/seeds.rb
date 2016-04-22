@@ -6,3 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 # Environment variables (ENV['...']) can be set in the file .env file.
+
+10.times do |index|
+  Book.create(title: "some title #{index}", author: 'mikstura.it', pages: 600)
+end
