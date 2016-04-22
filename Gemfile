@@ -13,6 +13,7 @@ gem 'omniauth-google-oauth2'
 
 gem 'pg'
 gem 'puma'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development do
   gem 'better_errors'
