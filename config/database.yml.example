@@ -18,8 +18,8 @@ development:
   encoding: unicode
   database: chirper-api_development
   pool:     5
-  username: michalczyz
-  password: michalczyz
+  username: postgres
+  password: postgres
   template: template0
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -46,8 +46,8 @@ test:
   encoding: unicode
   database: chirper-api_test
   pool:     5
-  username: michalczyz
-  password: michalczyz
+  username: postgres
+  password: postgres
   template: template0
 
 production:
@@ -56,6 +56,6 @@ production:
   encoding: unicode
   database: chirper-api_production
   pool:     5
-  username: michalczyz
-  password: michalczyz
+  username: postgres
+  password: postgres
   template: template0
